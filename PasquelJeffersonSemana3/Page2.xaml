@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PasquelJeffersonSemana3.Page2">
+    <ContentPage.Content>
+
+
+        <StackLayout>
+
+            <Frame BackgroundColor="#2196F3" Padding="-2" CornerRadius="0">
+                <Label Text="TSemana3" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+            </Frame>
+
+            <Label Text="Primer Parcial">
+
+            </Label>
+            <Entry x:Name="txtNota1" Placeholder="Ingrese el valor de la Nota 1 sobre 10" Keyboard="Numeric">
+            </Entry>
+            <Entry x:Name="txtNota2" Placeholder="Ingrese el valord de la Nota Primer Parcial del examen sobre 10" Keyboard="Numeric">
+            </Entry>
+
+            <Label Text="Segundo Parcial">
+
+            </Label>
+
+            <Entry x:Name="txtNota3" Placeholder="Ingrese el valor de la Nota 1 sobre 10" Keyboard="Numeric">
+            </Entry>
+            <Entry x:Name="txtNota4" Placeholder="Ingrese el valor de la Nota Segundo Parcial del examen sobre 10" Keyboard="Numeric">
+            </Entry>
+
+            <Label Text="Notas del Primer Parcial">
+
+            </Label>
+            <Entry x:Name="txtNotaParcial1" Placeholder="Parcial 1" IsEnabled="False">
+            </Entry>
+            <Label Text="Notas del Segundo Parcial">
+
+            </Label>
+            <Entry x:Name="txtNotaParcial2" Placeholder="Parcial 2" IsEnabled="False">
+            </Entry>
+            <Label Text="Valor Nota Final ">
+
+            </Label>
+            <Entry x:Name="txtNotaFinal" Placeholder="Final" IsEnabled="False">
+            </Entry>
+            <Entry x:Name="txtEstado" Placeholder="Estado" IsEnabled="False">
+            </Entry>
+
+            <Button x:Name="btnSumar" Text="Calcular" Clicked="btnSumar_Clicked"></Button>
+        
+        </StackLayout>
+        
+        
+    </ContentPage.Content>
+</ContentPage>

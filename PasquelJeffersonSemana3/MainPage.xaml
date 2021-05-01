@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PasquelJeffersonSemana3.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Universidad De Isarel" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <?aqui paso los datos ?>
+        <Entry x:Name="txtUsuario" Placeholder="ingrese su usuario"/>
+        <Entry x:Name="txtClave" Placeholder="ingrese su clave" IsPassword="True"/>
+        
+        
+        
+        <Button x:Name="btnAbrir"
+                Text="LOGEARSE"
+                Clicked="btnAbrir_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
